@@ -24,3 +24,7 @@ try exercises yourself, and/or use the materials after we cover the material in 
 1. [The Unix Shell Lesson](http://swcarpentry.github.io/shell-novice/)
 2. [Version Control with Git Lesson](http://swcarpentry.github.io/git-novice/)
 3. [Programming with Python](http://swcarpentry.github.io/python-novice-inflammation/)
+
+## Computational Sandbox
+
+For these introductory lessons, we will use [Boise State Jupyter Server](https://jupyter.boisestate.edu/)
