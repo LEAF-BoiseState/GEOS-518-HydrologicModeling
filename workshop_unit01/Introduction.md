@@ -36,15 +36,21 @@ that are just getting into scientific programming, I would strongly recommend th
 Miniconda, a lightweight Python installation with the ```conda``` package manager. Miniconda is 
 available for download for Windows, Mac, and Linux at no cost by [following this link](https://docs.conda.io/en/latest/miniconda.html). I highly recommend Miniconda (over Anaconda, 
 PyTorch, and other development environments) because it is easy to install and only installs 
-the bare minimum in terms of Python packages. Once you install Miniconda, you can use the following 
-```conda``` commands at the commnd prompt to install the packages you need. In particular, when getting
-started, I'd recommend:
+the bare minimum in terms of Python packages. __Make sure you install Python 3.x. Python 2.7 is no longer 
+under active development and many packages no longer work with it.__ Once you install Miniconda, 
+you can use the following ```conda``` commands at the commnd prompt to install the packages you need. 
+In particular, when getting started, I'd recommend:
 
-* ```conda install numpy```
-* ```conda install scipy```
-* ```conda install pandas```
-* ```conda install matplotlib```
-* ```conda install xarray```
+* ```conda install numpy```: Installs "numerical python," which is used for doing mathematical operations
+* ```conda install scipy```: Installs "scientific python," which is used for additional scientific operations
+* ```conda install ipython```: Installs "interactive python," which provides an interactive environment to work in. 
+  This is exceptionally useful in data science applications.
+* ```conda install pandas```: A very useful data science framework that allows for sophisticated query operations
+  using "data frames." For those familiar with the ```R``` programming language, Pandas provides some very 
+  similar high-level features like ```R```.
+* ```conda install matplotlib```: A plotting package used for making a variety of plots
+* ```conda install xarray```: An extremely powerful toolbox for multi-dimensional data analysis. We will use this
+  toolbox extensively later in the class to analyze and plot input to and output from WRF-Hydro.
 
 Additionally, you can install Jupyter using the following command:
 
@@ -55,5 +61,20 @@ many folks like Spyder, which can be installed using, you guessed it,
 
 * ```conda install spyder```
 
+## Resources
+
+For those interested, here is further documentation of these key toolboxes. You might want to review these and/or
+bookmark them for future reference.
+
+* [NumPy documentation](https://docs.scipy.org/doc/numpy/index.html)
+* [SciPy documentation](https://docs.scipy.org/doc/scipy/reference/)
+* [IPython documentation](https://ipython.readthedocs.io/en/stable/)
+* [Pandas documentation](https://pandas.pydata.org/pandas-docs/stable/)
+* [Matplotlib documentation](https://matplotlib.org/contents.html)
+* [Xarray documentation](http://xarray.pydata.org/en/stable/)
+
+Note that many of these toolboxes offer PDF versions of manuals. I __would not__ use them. All of these
+libraries are under continuous development and, while not much changes from one release to the next, there can be 
+subtle changes meaning that your PDF would be out of sync with your toolboxes/libraries as you update them.
 
 
