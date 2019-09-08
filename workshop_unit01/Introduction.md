@@ -29,6 +29,8 @@ try exercises yourself, and/or use the materials after we cover the material in 
 
 For these introductory lessons, we will use the [Boise State Jupyter Server](https://jupyter.boisestate.edu/). Note that these instances are not persistent. So, as soon as you close the tab that contains the Jupyter notebook instance you are using, all work and any files uploaded to the notebook will be lost permanently. 
 
+## Setting Up Your Computing Environment (optional)
+
 Jupyter Notebooks is fairly easy to install on your own laptop or desktop, however. For those that are just getting into scientific programming, I would strongly recommend that you install Miniconda, a lightweight Python installation with the ```conda``` package manager. Miniconda is available for download for Windows, Mac, and Linux at no cost by [following this link](https://docs.conda.io/en/latest/miniconda.html).
 
 
