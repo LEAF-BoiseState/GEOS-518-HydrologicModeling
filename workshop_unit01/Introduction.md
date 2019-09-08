@@ -31,6 +31,29 @@ For these introductory lessons, we will use the [Boise State Jupyter Server](htt
 
 ## Setting Up Your Computing Environment (optional)
 
-Jupyter Notebooks is fairly easy to install on your own laptop or desktop, however. For those that are just getting into scientific programming, I would strongly recommend that you install Miniconda, a lightweight Python installation with the ```conda``` package manager. Miniconda is available for download for Windows, Mac, and Linux at no cost by [following this link](https://docs.conda.io/en/latest/miniconda.html).
+Jupyter Notebooks is fairly easy to install on your own laptop or desktop, however. For those 
+that are just getting into scientific programming, I would strongly recommend that you install
+Miniconda, a lightweight Python installation with the ```conda``` package manager. Miniconda is 
+available for download for Windows, Mac, and Linux at no cost by [following this link](https://docs.conda.io/en/latest/miniconda.html). I highly recommend Miniconda (over Anaconda, 
+PyTorch, and other development environments) because it is easy to install and only installs 
+the bare minimum in terms of Python packages. Once you install Miniconda, you can use the following 
+```conda``` commands at the commnd prompt to install the packages you need. In particular, when getting
+started, I'd recommend:
+
+* ```conda install numpy```
+* ```conda install scipy```
+* ```conda install pandas```
+* ```conda install matplotlib```
+* ```conda install xarray```
+
+Additionally, you can install Jupyter using the following command:
+
+* ```conda install jupyter
+
+If you like having an Integrated Development Environment (IDE, like Matlab's nice user interface), 
+many folks like Spyder, which can be installed using, you guessed it,
+
+* ```conda install spyder```
+
 
 
