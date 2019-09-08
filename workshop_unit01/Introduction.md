@@ -48,7 +48,7 @@ started, I'd recommend:
 
 Additionally, you can install Jupyter using the following command:
 
-* ```conda install jupyter
+* ```conda install jupyter```
 
 If you like having an Integrated Development Environment (IDE, like Matlab's nice user interface), 
 many folks like Spyder, which can be installed using, you guessed it,
